@@ -1,5 +1,5 @@
-<Configuration ID="3425b7df-6458-4d52-8582-405b61b30f99">
-  <Add OfficeClientEdition="64" Channel="Current" SourcePath="E:\Office19" AllowCdnFallback="FALSE">
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="F:\" AllowCdnFallback="FALSE">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
@@ -8,6 +8,7 @@
       <ExcludeApp ID="OneDrive" />
       <ExcludeApp ID="OneNote" />
       <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="OutlookForWindows" />
       <ExcludeApp ID="Publisher" />
       <ExcludeApp ID="Teams" />
       <ExcludeApp ID="Bing" />
@@ -18,7 +19,7 @@
   <Property Name="AUTOACTIVATE" Value="0" />
   <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
   <Property Name="DeviceBasedLicensing" Value="0" />
-  <Updates Enabled="FALSE" UpdatePath="E:\Office19" />
+  <Updates Enabled="TRUE" />
   <RemoveMSI />
   <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
