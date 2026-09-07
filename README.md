@@ -13,8 +13,7 @@
 - `cd` to the folder above (where placed `cfg.xml` and `setup.exe`)
 - Run `setup.exe /configure cfg.xml`
 
-
-
-
-3. ...
-`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration`
+3. Online update / Online repair Office after offline installed
+- Press `Win + R` → Open `regedit` → Goto `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration`
+- Delete `UpdateURL` and `ChannelCurrent`
+- Open Office apps (Word/Excel/...) → Account → Update now
