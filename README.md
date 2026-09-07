@@ -12,3 +12,9 @@
 - Open CMD **as Administrator**
 - `cd` to the folder above (where placed `cfg.xml` and `setup.exe`)
 - Run `setup.exe /configure cfg.xml`
+
+
+
+
+3. ...
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration`
